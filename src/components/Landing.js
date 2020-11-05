@@ -9,8 +9,10 @@ import ProductList from './product/ProductList';
 
 const Hero = styled.div `
   height: 300px;
-  background: #aaa;
-  color: white;
+  background: #f574d5;
+  background-image: url('https://media.istockphoto.com/photos/colorful-bath-bombs-on-a-pastel-orange-background-picture-id1176846059?b=1&k=6&m=1176846059&s=170667a&w=0&h=LSyHLi9gefEGN8zPWEPQljTHQnVLInf8fKvEbl9NVjw=');
+  background-size: cover;
+  color: black;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -26,7 +28,7 @@ const Landing = ({ config }) => {
       <Paper style={{ padding: "40px" }}>
         <Hero>
           <div style={{ display: "inline-block", maxWidth: "80%"}}>
-            <p>intro your site here!</p>
+            <p>Welcome to Phizzies!</p>
           </div>
         </Hero>
         <Divider style={{ margin: "40px 0" }}/>

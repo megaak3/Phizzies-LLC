@@ -25,10 +25,10 @@ const LargeIMG = styled.div `
   background-position: 50%;
   display: inline-block;
   @media (min-width: 650px) {
-    filter: grayscale(100%);
+    filter: brightness(100%);
     transition: filter .5s;
     &:hover {
-      filter: grayscale(0);
+      filter: drop-shadow(-3px 0px #f574d5); 
     }
   }
 `;
