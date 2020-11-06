@@ -45,7 +45,6 @@
     "eject": "react-scripts eject",
     "server": "nodemon server/index.js"
   },
-  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",
